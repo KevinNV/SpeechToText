@@ -195,11 +195,11 @@ def cer(reference, hypothesis, ignore_case=False, remove_space=False):
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 #Download dataset
-dataset = torchaudio.datasets.SPEECHCOMMANDS(root="C:/Users/kevin/Pytorch/dataset",
+dataset = torchaudio.datasets.SPEECHCOMMANDS(root="dataset",
                                             url="speech_commands_v0.02",
                                             download=False)
 
-dataset_directory = 'C:/Users/kevin/Pytorch/dataset/SpeechCommands/speech_commands_v0.02/'
+dataset_directory = 'dataset/SpeechCommands/speech_commands_v0.02/'
 
 #Get all labels
 labels_list = os.listdir(dataset_directory)
