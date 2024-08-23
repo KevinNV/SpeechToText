@@ -18,7 +18,8 @@ Step 5: Save model as .pt file and use it to generate transcriptions where neces
 
 # Status
 ---
-**Completed**
+**Completed** <br>
+Link: [Full Project](https://github.com/Begelit/Speech-To-Text-Web-App-Django?tab=readme-ov-file)
 
 # Future Tasks
 ---
